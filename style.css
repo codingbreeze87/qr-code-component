@@ -13,7 +13,7 @@
 
   /* Topography */
   --ff-body: 'Outfit', sans-serif;
-  --fs-15: 15px;
+  --fs-15: 0.9rem;
 
   --fw-400: 400;
   --fw-700: 700;
@@ -26,7 +26,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-15);
   line-height: 1.4;
-  padding: 25px;
+  padding: 1.6em;
   place-content: center;
   min-height: 100vh;
 }
@@ -37,32 +37,32 @@ img {
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
 .card {
   background-color: var(--white);
-  border-radius: 16px;
-  box-shadow: 0 0 90px 0 hsla(217, 45%, 22%, 0.221);
-  padding: 16px;
-  max-width: 320px;
+  border-radius: 1em;
+  box-shadow: 0 0 6em 0 hsla(217, 45%, 22%, 0.221);
+  padding: 1em;
+  max-width: 20rem;
 }
 
 .card__img {
-  border-radius: 16px;
+  border-radius: 1em;
 }
 
 .card__content {
   text-align: center;
-  padding: 20px;
+  padding: 1.25em;
 }
 
 .card__title {
   color: var(--slate-900);
-  font-size: 21px;
+  font-size: 1.3rem;
   line-height: 1.1;
-  margin-bottom: 15px;
+  margin-bottom: 0.938em;
 }
 
 .card__desc {
@@ -71,17 +71,18 @@ img {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 1.6em 0;
   position: relative;
 }
 
 .footer__attr {
-  font-size: 11px;
+  color: var(--slate-500);
+  font-size: 0.7rem;
   text-align: center;
   position: fixed;
   bottom: 0;
-  margin: 10px 0;
+  margin: 0.6em 0;
 }
 .footer__link {
-  color: hsl(228, 45%, 44%);
+  color: var(--slate-900);
 }
