@@ -25,7 +25,7 @@ body {
   display: grid;
   font-family: var(--ff-body);
   font-size: var(--fs-15);
-  line-height: 1.5;
+  line-height: 1.4;
   padding: 25px;
   place-content: center;
   min-height: 100vh;
@@ -51,7 +51,6 @@ img {
 
 .card__img {
   border-radius: 16px;
-  object-fit: cover;
 }
 
 .card__content {
@@ -62,7 +61,8 @@ img {
 .card__title {
   color: var(--slate-900);
   font-size: 21px;
-  margin-bottom: 20px;
+  line-height: 1.1;
+  margin-bottom: 15px;
 }
 
 .card__desc {
