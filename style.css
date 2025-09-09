@@ -38,6 +38,7 @@ img {
 
 .wrapper {
   max-width: 1440px;
+  margin: 100px auto;
 }
 
 .card {
@@ -46,11 +47,11 @@ img {
   box-shadow: 0 0 0 var(--slate-500), 0 0 0 var(--slate-500);
   padding: 16px;
   max-width: 320px;
-  margin-bottom: 100px;
 }
 
 .card__img {
   border-radius: 16px;
+  object-fit: cover;
 }
 
 .card__content {
@@ -79,6 +80,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
+  margin: 10px 0;
 }
 .footer__link {
   color: hsl(228, 45%, 44%);
